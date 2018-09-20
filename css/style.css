@@ -120,6 +120,7 @@ figure {
       color: #000;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
+    height: 100vh;
     display: block;
     width: 100%; }
     #colorlib-aside #colorlib-main-menu .collapse {
@@ -380,7 +381,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  height: 100vh;
+  padding-top: 4em;
+  padding-bottom: 9em;
   clear: both;
   width: 100%;
   display: block; }
@@ -952,7 +954,7 @@ body.offcanvas {
       height: 300px; }
       .project .desc .con .icon {
         position: absolute;
-        bottom: 10px;
+        bottom: 20px;
         left: 20px;
         right: 20px; }
         .project .desc .con .icon span {
@@ -1426,7 +1428,3 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
-
-.colorlib-about {
-    padding-top: 20vh;
-}
